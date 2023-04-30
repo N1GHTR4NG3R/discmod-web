@@ -2,7 +2,6 @@
   <nav>
     <div id="hamnav">
       <img alt="Discmod logo" src="@/assets/imgs/Discmod-logo.png" />
-      <h1>Discmod</h1>
       <label for="hamburger" class="burger">&#9776;</label>
       <input type="checkbox" id="hamburger" />
       <ul class="hamitems">
@@ -75,7 +74,6 @@ export default {
 nav {
   height: 150px;
   width: 100%;
-  padding-top: 10px;
 }
 nav ul {
   margin: 0;
@@ -90,19 +88,9 @@ nav ul {
 #hamnav img {
   float: left;
   padding-left: 20px;
-  height: 150px;
-  width: 150px;
-}
-#hamnav h1 {
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-  justify-content: center;
-  padding-right: 160px;
-  font-size: 40px;
-  line-height: 50px;
-  margin: 0 auto;
-  padding-top: 15px;
-  color: white;
+  height: 125px;
+  width: 125px;
+  padding-top: 10px;
 }
 .hamitems {
   font-family: 'Nunito Sans', sans-serif;
@@ -111,7 +99,6 @@ nav ul {
   align-items: center;
   justify-content: center;
   list-style: none;
-  padding-top: 20px;
 }
 .routerlink {
   flex-grow: 1;
@@ -141,13 +128,6 @@ a {
   background-color: #7289da;
   color: white;
   cursor: pointer;
-}
-.navcolor {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
 }
 .login:hover {
   background-color: lightgreen;

@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <h2>Welcome {{ user.name }}</h2>
+    <p>Select the guild you wish to manage</p>
     <div class="guildDivs">
       <ul>
         <li
@@ -49,6 +50,11 @@ export default {
   font-size: 2em;
   color: white;
   font-family: 'Roboto', sans-serif;
+}
+.wrapper p {
+  font-size: 1.3em;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .guildDivs {
   display: flex;
